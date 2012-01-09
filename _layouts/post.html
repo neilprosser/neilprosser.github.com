@@ -1,0 +1,19 @@
+---
+layout: default
+---
+<div id="postInfo">
+	<h2>{{ page.title }}</h2> <span id="postDate">{{ page.date | date_to_string }}</span>
+</div>
+<div id="post">
+{{ content }}
+</div>
+{% if site.related_posts.size != 0 %}
+<div id="otherPosts">
+    <h3>other posts</h3>
+    <ul>
+    {% for post in site.related_posts %}{% if post.url != page.url %}
+        <li><a href="{{ post.url }}">{{ post.title }}</a> ({{ post.date | date_to_string }})</li>
+    {% endif %}{% endfor %}
+    </ul>
+</div>
+{% endif %}

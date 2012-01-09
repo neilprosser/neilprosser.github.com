@@ -1,10 +1,10 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>ninjakoala.com</title>
-    <link rel="stylesheet" type="text/css" href="style.css" />
-  </head>
-  <body>
-    <h1>ninjakoala.com</h1>
-  </body>
-</html>
+---
+layout: default
+title: "you just can't see them"
+---
+<h2>stuff and nonsense</h2>
+<ul id="sitePosts">
+{% for post in site.posts %}
+    <li><a href="{{ post.url }}">{{ post.title }}</a> ({{ post.date | date_to_string }})</li>
+{% endfor %}
+</ul>

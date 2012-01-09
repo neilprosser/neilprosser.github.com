@@ -1,0 +1,94 @@
+body {
+    font-family: sans-serif;
+    margin: 0em;
+    padding: 0em;
+    font-size: 1.25em;
+}
+
+a:link, a:visited, a:hover, a:active {
+    color: inherit;
+}
+
+#top {
+    color: white;
+    background-color: black;
+    border-bottom: 2px solid black;
+    padding: 1em;
+}
+
+#middle {
+    padding: 1em;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: 0em;
+    padding: 0em;
+    float: left;
+}
+
+h1 a {
+    text-decoration: none;
+}
+
+h2 {
+    margin: 0em;
+    padding: 0em;
+}
+
+h3 {
+    margin: 0em;
+    padding: 0em;
+}
+
+p {
+    margin: 0.5em 0em;
+}
+
+#post ul {
+    margin: 0.5em 0em;
+}
+
+#links {
+    float: left;
+    padding-top: 1em;
+    padding-left: 1em;
+}
+
+#postInfo h2 {
+	display: inline;
+}
+
+#postDate {
+    color: gray;
+    font-size: 0.6em;
+}
+
+#sitePosts {
+    margin: 0.5em 0em;
+}
+
+#contact {
+    margin: 0.5em 0em;
+}
+
+#otherPosts {
+    padding-top: 0.5em;
+    border-top: 2px solid black;
+}
+
+#otherPosts ul {
+    margin: 0.5em 0em;
+}
+
+#bottom {
+    border-top: 2px solid black;
+    padding: 2em;
+    font-size: 0.6em;
+    color: gray;
+}
+
+.clear {
+    height: 0em;
+    clear: both;
+}
