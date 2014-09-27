@@ -1,6 +1,7 @@
 permalink: /:title/
-pygments: true
-markdown: rdiscount
-lsi: true
-rdiscount:
-    extensions: [:smart]
+
+highlighter: pygments
+
+markdown: kramdown
+
+encoding: UTF-8
