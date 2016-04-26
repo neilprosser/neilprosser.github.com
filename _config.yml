@@ -1,6 +1,6 @@
 permalink: /:title/
 
-highlighter: pygments
+highlighter: rouge
 
 markdown: kramdown
 
